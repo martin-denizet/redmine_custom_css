@@ -2,12 +2,12 @@
 
 == Feature
 
-* Allows to input CSS to customize Redmine'e theme
+* Allows to input CSS to customize Redmine's theme
 * Hey, that's all for now!
 
 == Roadmap
 
-A feature to implement could be the file upload to add images.
+Maybe implement file upload to add images.
 
 == Downloading and installing the plugin
 
