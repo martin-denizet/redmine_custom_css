@@ -1,0 +1,17 @@
+<%= stylesheet_link_tag 'codemirror', :plugin => :redmine_custom_css %>
+<%= javascript_include_tag 'codemirror-compressed', :plugin => :redmine_custom_css %>
+
+<p>
+  <label><%= l(:label_cf_custom_css) %></label>
+  <%= text_area_tag 'settings[css]', @settings[:css] %>
+  <em class="info"> <%= l(:help_cf_css) %></em>
+</p>
+
+<script type="text/javascript">
+    var myCodeMirror = CodeMirror.fromTextArea(document.getElementById("settings_css"), {
+        mode: "css",
+        smartIndent: true,
+        lineNumbers: true,
+        matchBrackets: true
+    });
+</script>
