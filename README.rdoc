@@ -1,0 +1,29 @@
+= Redmine Login Audit
+
+== Feature
+
+* Allows to input CSS to customize Redmine'e theme
+* Hey, that's all for now!
+
+== Roadmap
+
+A feature to implement could be the file upload to add images.
+
+== Downloading and installing the plugin
+
+First download the plugin using git, open a terminal in your Redmine installation directory:
+
+<tt>git clone git@github.com:martin-denizet/redmine_custom_css.git vendor/plugins/</tt>
+
+The installation is now finished and you will be able to use the plugin after you restart your Redmine instance.
+
+No need to migrate the database!
+
+== Credits
+
+Thank to CodeMirror for their very cool editor! http://codemirror.net/
+
+== License
+
+GPLv2
+
