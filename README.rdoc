@@ -1,4 +1,4 @@
-= Redmine Login Audit
+= Redmine Custom CSS plugin
 
 == Feature
 
