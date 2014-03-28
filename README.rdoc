@@ -5,6 +5,14 @@
 * Allows to input CSS to customize Redmine's theme
 * Hey, that's all for now!
 
+== Compatibility
+
+Redmine 2.1.x ~ 2.5.x stable
+
+Tested on:
+* 2.4.2
+* 2.5.0
+
 == Roadmap
 
 Maybe implement file upload to add images.
