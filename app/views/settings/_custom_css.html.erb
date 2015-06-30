@@ -1,5 +1,16 @@
 <%= stylesheet_link_tag 'codemirror', :plugin => :redmine_custom_css %>
-<%= javascript_include_tag 'codemirror-compressed', :plugin => :redmine_custom_css %>
+<%= javascript_include_tag 'codemirror.min', :plugin => :redmine_custom_css %>
+
+<style type="text/css">
+    .CodeMirror {
+        height: auto;
+        min-height: 300px;
+    }
+
+    .CodeMirror-scroll {
+        min-height: 300px;
+    }
+</style>
 
 <p>
   <label><%= l(:label_cf_custom_css) %></label>
@@ -12,6 +23,8 @@
         mode: "css",
         smartIndent: true,
         lineNumbers: true,
-        matchBrackets: true
+        matchBrackets: true,
+        autofocus: true,
+        viewportMargin: Infinity
     });
 </script>
