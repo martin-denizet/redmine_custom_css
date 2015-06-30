@@ -18,7 +18,7 @@
 # You should have received a copy of the GNU General Public License
 # along with redmine_custom_css.  If not, see <http://www.gnu.org/licenses/>.
 #
-require_dependency 'redmine_custom_css/hooks'
+require_dependency 'hooks'
 
 Redmine::Plugin.register :redmine_custom_css do
   name 'Redmine Custom CSS plugin'
