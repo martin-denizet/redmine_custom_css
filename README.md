@@ -16,19 +16,21 @@ You can also visit my blog at http://martin-denizet.com
 
 ## Compatibility
 
-Redmine 2.1.x ~ 2.5.x stable
+Redmine 2.x ~ 3.x stable
 
 Tested on:
-* 2.4.2
+* 3.0.3
 * 2.5.0
+* 2.4.2
 
 ## Roadmap
 
-Maybe implement file upload to add images.
+* Maybe implement file upload to add images.
+* Publish CSS as a file and not embedded in the HTML.
 
 ## Downloading and installing the plugin
 
-First download the plugin using git, open a terminal in your Redmine installation directory:
+Download the plugin using git. Open a terminal in your Redmine installation directory and type:
 
 <tt>git clone git@github.com:martin-denizet/redmine_custom_css.git ./plugins/</tt>
 
@@ -36,15 +38,42 @@ The installation is now finished and you will be able to use the plugin after yo
 
 No need to migrate the database!
 
-## Use
+## Usage
 
 After installing, navigate to plugin configuration (/settings/plugin/redmine_custom_css) and start inputing CSS.
 
 ## Credits
 
-Thank to CodeMirror for their very cool editor! http://codemirror.net/
+Thank to CodeMirror for their very cool editor licensed under MIT license! http://codemirror.net/
+
+## Contributors
+
+* @martin-denizet : Coding
+* @onlyjob : Licensing expertise
+
+## License TL;DR
+
+GPLv3+
+Copyright (C) 2015 Martin DENIZET <martin.denizet@supinfo.com>
 
 ## License
 
-GPLv2
+redmine_custom_css - "redmine_custom_css" is Redmine plugin to add custom CSS
+editable through web interface
+Copyright (C) 2015 Martin DENIZET <martin.denizet@supinfo.com>
+
+This file is part of redmine_custom_css.
+
+redmine_custom_css is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+redmine_custom_css is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with redmine_custom_css.  If not, see <http://www.gnu.org/licenses/>.
 
