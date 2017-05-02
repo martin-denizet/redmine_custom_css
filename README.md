@@ -19,6 +19,7 @@ You can also visit my blog at http://martin-denizet.com
 Redmine 2.x ~ 3.x stable
 
 Tested on:
+* 3.3.x
 * 3.0.3
 * 2.5.0
 * 2.4.2
