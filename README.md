@@ -24,13 +24,13 @@ Tested on:
 ## Roadmap
 
 * Maybe implement file upload to add images.
-* Give an option to publish the CSS as a file and not embedded in the HTML.
+* Give an option to publish the CSS as a file and not inlined in the HTML.
 
 ## Downloading and installing the plugin
 
-Download the plugin using git. Open a terminal in your Redmine installation directory and type:
+Download the plugin using git. Open a terminal in your Redmine installation's "plugins" directory and type:
 
-<tt>git clone git@github.com:martin-denizet/redmine_custom_css.git ./plugins/</tt>
+<tt>git clone https://github.com/martin-denizet/redmine_custom_css.git</tt>
 
 The installation is now finished and you will be able to use the plugin after you restart your Redmine instance.
 
@@ -54,7 +54,7 @@ Thank to CodeMirror for their very cool editor licensed under MIT license! http:
 ## License TL;DR
 
 GPLv3+
-Copyright (C) 2015 Martin DENIZET <martin.denizet@supinfo.com>
+Copyright (C) 2018 Martin DENIZET <martin.denizet@supinfo.com>
 
 ## License
 
