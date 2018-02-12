@@ -3,11 +3,7 @@
 Allows to input CSS directly from Redmine to customize Redmine appearance.
 Edit the CSS in the plugin's configuration page. Path to configuration is /settings/plugin/redmine_custom_css
 
-If you like this plugin, you're welcome to endorse me!
-[![endorse](https://api.coderwall.com/martin-denizet/endorsecount.png)](https://coderwall.com/martin-denizet)
-
-Work sponsored by Algen, visit us at http://algen.co
-You can also visit my blog at http://martin-denizet.com
+Please note that there is nothing for now to prevent an admin injecting HTML in the page!
 
 ## Features
 
@@ -19,6 +15,8 @@ You can also visit my blog at http://martin-denizet.com
 Redmine 2.x ~ 3.x stable
 
 Tested on:
+* 3.4.x
+* 3.3.x
 * 3.0.3
 * 2.5.0
 * 2.4.2
@@ -26,13 +24,13 @@ Tested on:
 ## Roadmap
 
 * Maybe implement file upload to add images.
-* Publish CSS as a file and not embedded in the HTML.
+* Give an option to publish the CSS as a file and not inlined in the HTML.
 
 ## Downloading and installing the plugin
 
-Download the plugin using git. Open a terminal in your Redmine installation directory and type:
+Download the plugin using git. Open a terminal in your Redmine installation's "plugins" directory and type:
 
-<tt>git clone git@github.com:martin-denizet/redmine_custom_css.git ./plugins/</tt>
+<tt>git clone https://github.com/martin-denizet/redmine_custom_css.git</tt>
 
 The installation is now finished and you will be able to use the plugin after you restart your Redmine instance.
 
@@ -50,17 +48,19 @@ Thank to CodeMirror for their very cool editor licensed under MIT license! http:
 
 * @martin-denizet : Coding
 * @onlyjob : Licensing expertise
+* @virtualmarc : Bugfix
+* @Daiben : Testing
 
 ## License TL;DR
 
 GPLv3+
-Copyright (C) 2015 Martin DENIZET <martin.denizet@supinfo.com>
+Copyright (C) 2018 Martin DENIZET <martin.denizet@supinfo.com>
 
 ## License
 
 redmine_custom_css - "redmine_custom_css" is Redmine plugin to add custom CSS
 editable through web interface
-Copyright (C) 2015 Martin DENIZET <martin.denizet@supinfo.com>
+Copyright (C) 2018 Martin DENIZET <martin.denizet@supinfo.com>
 
 This file is part of redmine_custom_css.
 

@@ -24,13 +24,13 @@ Redmine::Plugin.register :redmine_custom_css do
   name 'Redmine Custom CSS plugin'
   author 'Martin DENIZET'
   description 'Allows to customize Redmine\'s CSS'
-  version '0.1.6'
+  version '0.1.7'
   url 'https://github.com/martin-denizet/redmine_custom_css'
   author_url 'http://martin-denizet.com'
 
 
   settings :default => {
-      :css => "/*\nh2{\ncolor:red;\n}\n*/",
+      :css => "/*Sample CSS to make the headers red, uncomment to test\nh2{\ncolor:red;\n}\n*/",
   },
   :partial => 'settings/custom_css'
 
