@@ -14,7 +14,7 @@
 
 <p>
   <label><%= l(:label_cf_custom_css) %></label>
-  <%= text_area_tag 'settings[css]', settings['css'] %>
+  <%= text_area_tag 'settings[css]', settings['css'], escape: false %>
   <em class="info"> <%= l(:help_cf_css) %></em>
 </p>
 
