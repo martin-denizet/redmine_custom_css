@@ -18,7 +18,7 @@
 # You should have received a copy of the GNU General Public License
 # along with redmine_custom_css.  If not, see <http://www.gnu.org/licenses/>.
 #
-require_dependency 'hooks'
+require File.expand_path 'lib/redmine_custom_css/hook_listener', __dir__
 
 Redmine::Plugin.register :redmine_custom_css do
   name 'Redmine Custom CSS plugin'

@@ -19,7 +19,7 @@
 # along with redmine_custom_css.  If not, see <http://www.gnu.org/licenses/>.
 #
 module RedmineCustomCss
-  class RedmineCustomCssHookListener < Redmine::Hook::ViewListener
+  class HookListener < Redmine::Hook::ViewListener
     def view_layouts_base_html_head(context)
       css = Setting.plugin_redmine_custom_css['css']
       "<style type=\"text/css\">#{css}</style>" unless css.nil? or css.empty?
